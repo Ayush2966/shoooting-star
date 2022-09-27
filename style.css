@@ -1,0 +1,138 @@
+body {
+    height: 100vh;
+    background: #000000;
+}
+.shooting_star {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 2px;
+    background: linear-gradient(-45deg, rgba(95, 145, 255, 0.35), rgba(0, 0, 255, 0));
+    border-radius: 999px;
+    filter: drop-shadow(0 0 6px rgba(105, 155, 255, 1));
+    animation: tail 4000ms linear infinite, shooting 4000ms linear infinite;
+}
+.shooting_star:nth-child(1) {
+    top: 76%;
+    left: 0;
+    animation-delay: 9004ms;
+}
+.shooting_star:nth-child(2) {
+    top: 82%;
+    left: 0;
+    animation-delay: 8689ms;
+}
+.shooting_star:nth-child(3) {
+    top: 63%;
+    left: 0;
+    animation-delay: 683ms;
+}
+.shooting_star:nth-child(4) {
+    top: 47%;
+    left: 0;
+    animation-delay: 9142ms;
+}
+.shooting_star:nth-child(5) {
+    top: 57%;
+    left: 0;
+    animation-delay: 412ms;
+}
+.shooting_star:nth-child(6) {
+    top: 48%;
+    left: 0;
+    animation-delay: 5208ms;
+}
+.shooting_star:nth-child(7) {
+    top: 50%;
+    left: 0;
+    animation-delay: 4342ms;
+}
+.shooting_star:nth-child(8) {
+    top: 71%;
+    left: 0;
+    animation-delay: 4363ms;
+}
+.shooting_star:nth-child(9) {
+    top: 56%;
+    left: 0;
+    animation-delay: 70ms;
+}
+.shooting_star:nth-child(10) {
+    top: 31%;
+    left: 0;
+    animation-delay: 3644ms;
+}
+.shooting_star:nth-child(11) {
+    top: 41%;
+    left: 0;
+    animation-delay: 2764ms;
+}
+.shooting_star:nth-child(12) {
+    top: 42%;
+    left: 0;
+    animation-delay: 9416ms;
+}
+.shooting_star:nth-child(13) {
+    top: 83%;
+    left: 0;
+    animation-delay: 6232ms;
+}
+.shooting_star:nth-child(14) {
+    top: 61%;
+    left: 0;
+    animation-delay: 3522ms;
+}
+.shooting_star:nth-child(15) {
+    top: 8%;
+    left: 0;
+    animation-delay: 4025ms;
+}
+.shooting_star:nth-child(16) {
+    top: 25%;
+    left: 0;
+    animation-delay: 9370ms;
+}
+.shooting_star:nth-child(17) {
+    top: 62%;
+    left: 0;
+    animation-delay: 4667ms;
+}
+.shooting_star:nth-child(18) {
+    top: 8%;
+    left: 0;
+    animation-delay: 6368ms;
+}
+.shooting_star:nth-child(19) {
+    top: 29%;
+    left: 0;
+    animation-delay: 9439ms;
+}
+.shooting_star:nth-child(20) {
+    top: 90%;
+    left: 0;
+    animation-delay: 8585ms;
+}
+@keyframes tail {
+    0% {
+        width: 0;
+        opacity: 0;
+   }
+    25% {
+        opacity: 100%;
+   }
+    75% {
+        opacity: 100%;
+   }
+    100% {
+        width: 100%;
+        opacity: 0;
+   }
+}
+@keyframes shooting {
+    0% {
+        transform: translateX(0);
+   }
+    100% {
+        transform: translateX(100%);
+   }
+}
